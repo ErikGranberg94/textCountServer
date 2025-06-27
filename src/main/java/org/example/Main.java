@@ -9,7 +9,6 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Main {
-    //TODO handle exceptions and test
     public static void main(String[] args) {
         if(args.length < 2){
             System.err.println("Missing filepath or port number");
